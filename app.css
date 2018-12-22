@@ -1,0 +1,146 @@
+    html,
+    body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    html {
+    box-sizing: border-box;
+    }
+
+    body{
+    background: linear-gradient(120deg, #a589ba 0%, #082954 100%);
+    }
+
+    .container
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    h1{
+    font-size: 40px;
+    font-weight: 400px;
+    font-family: sans-serif;
+    color: #ffffff;
+    }
+
+
+    /*********Modal CSS values for No of moves, stars and restart button and timer and header*************/
+
+    /* css for the score borad*/
+    .score-board
+    {
+    display: inline-block;
+    }
+
+    /* css for the no of moves*/
+    .no-of-moves span
+    {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    width: 100px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    margin: 3px 1px 1px 5px;
+    font-weight: 600;
+    }
+
+
+
+    /* css for the h3 text and the stars */
+    .no-of-moves h3 ,
+    .stars ,
+    .repeat-icon,
+    .timer
+    {
+    display: inline-block;
+    color: #ffffff;;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 4px 4px 4px 4px;
+    margin: 8px 4px 4px 8px;
+    }
+
+    /* css to make the stars inline blocked */
+    .stars li
+    {
+    display: inline-block;
+    list-style-type: none;
+    }
+
+    /* css for the restart button elments*/
+    .repeat-icon h3
+    ,i
+    {
+    display:  inline-block;
+    padding: 1px 1px 1px 1px;
+    margin : 6px 3px 6px 3px;
+    }
+
+    /* css for the restart button*/
+    .repeat-icon
+    {
+    border: 2px solid blue;;
+    width: 100px;
+    background: blue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #082954;
+    }
+
+
+    /************* CSS for Styling the grid of cards ****************/
+
+    /** css for styling the deck of cards */
+
+    .cards-list
+    {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(120deg, #000033 0% ,#9999ff 100%);
+    width: 600px;
+    height:500px;
+    box-shadow: 5px 5px 5px 1px #a589ba;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #000033;
+    justify-content: space-between;
+    }
+
+    .card
+    {
+    width: 135px;
+    height: 100px;
+    background: gray;
+    color: #2e3d49;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 0px;
+    box-shadow: 5px 2px 2px 0 darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .card-open
+    {
+    width: 135px;
+    height: 100px;
+    background: #082954;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: 30px;
+    box-shadow: 5px 2px 2px 0 #082954;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
